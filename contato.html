@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - MPPA</title>
+
+    <link rel="stylesheet" href="style/menu.css" content="width-device-widt,initial-scale=1.0">
+    <link rel ="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+</head>
+    <input type="checkbox" id="check">
+    <label for="check">
+        <i class="fas fa-bars" id="btn"></i>
+        <i class="fas fa-times" id="cancel"></i>
+    </label>
+    <div class="si">
+        <header>MENU</header>
+        <a href="home.html" class = "active">
+            <i class="fas fa-qrcode"></i>
+            <span>Principal</span>
+        </a>
+        <a href="Filmes.html" class = "active">
+            <i class="fa fa-video"></i>
+            <span>Filmes</span>
+        </a>
+        <a href="trailers.html" class = "active">
+            <i class="fa fa-film"></i>
+            <span>Trailers</span>
+        </a>
+        <a href="som.html" class = "active">
+            <i class="fa fa-file-audio"></i>
+            <span>Trilhas Sonoras</span>
+        </a>
+        <a href="contato.html" class = "active">
+            <i class="fa fa-phone-square" aria-hidden="true"></i>
+            <span><font color="red">Contatos</font></span>
+        </a>
+        <a href="sobre.html" class = "active">
+            <i class="fa fa-user-circle" aria-hidden="true"></i>
+            <span>Sobre</span>
+        </a>
+        <a href="index.html" class = "active">
+            <i class="fa fa-reply" aria-hidden="true"></i>
+            <span>Sair</span>
+        </a>
+    </div>
+    <body>
+        <main>
+            <div class="b">
+                <img src="img/cine.png">
+            </div>
+            <div class="ayuda2">
+                <form action="contato.html" class="form">
+                    <h3 style="text-align: center;">Sugestões e Reclamações aqui!</h3>
+                    <label for="nome"><b>Nome</b></label>
+                    <input type="text" placeholder="Digite seu nome aqui!" name="nome" required>
+                    <br>
+                    <label for="email"><b>Email</b></label>
+                    <input type="text" placeholder="Digite seu email aqui!" name="email" required>
+                    <br>
+                    <label for="assunto"><b>Assunto</b></label>
+                    <input type="text" placeholder="..." name="assunto" required>
+                    <br>
+                    <label for="email"><b>Mensagem</b></label>
+                    <input type="text" name="msg" id="caixao" required>
+                    <br>
+                    <button type="submit" class="btn">Enviar</button>
+                </form>
+            </div>
+        </main>
+        <footer>&copy;
+            <p>Matheus Palhares e Paulo Eduardo Arantes - IFSULDEMINAS - 2022</p>
+        </footer>
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/logo.jpg">
+    <link rel="stylesheet" href="style/cadastro.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <main>
+        <img class="logo" src="img/logo.jpg" alt="">
+        <div class="bton">
+            <a class="msg" href="index.html"><h1><b>Já possui cadastro? Login!</b></h1></a>
+        </div>
+        <form action="home.html" class="container">
+            <h1>Cadastro</h1>
+            <label for="nome"><b>Nome</b></label>
+            <input type="text" placeholder="Digite seu nome aqui!" name="nome" required>
+            <label for="end"><b>Endereço</b></label>
+            <input type="text" placeholder="Digite seu endereço aqui!" name="end" required>
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Digite seu email aqui!" name="email" required>
+            <label for="estado"><b>Estado</b></label>
+            <select class="select" name="estado" id="estados">
+                    <option value="select">Selecione um estado</option>
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="ES">Espírito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>
+                    <option value="Outro">Outro</option>
+            </select>
+            <br>
+            <br>
+            <label for="sexo"><b>Sexo</b></label>
+            <input type="radio" id="m" name="sexo" value="Masculino"> <label for="m">Masculino</label>
+            <input type="radio" id="f" name="sexo" value="Feminino"> <label for="f">Feminino</label>
+            <br>
+            <br>
+            <label for="generos"><b>Gêneros Favoritos</b></label>
+            <div>
+                <input type="checkbox" id="comedia" name="genero" value="comedia"> <label for="comedia">Comédia</label>
+                <input type="checkbox" id="acao" name="genero" value="acao"> <label for="acao">Ação</label>
+                <input type="checkbox" id="terror" name="genero" value="terror"> <label for="terror">Terror</label>
+            </div>
+            <div>
+                <input type="checkbox" id="animacao" name="genero" value="animacao"> <label for="animacao">Animação</label>
+                <input type="checkbox" id="romance" name="genero" value="romance"> <label for="romance">Romance</label>
+                <input type="checkbox" id="infantil" name="genero" value="infantil"> <label for="infantil">Infantil</label>
+            </div>
+            <br>
+            <label for="user"><b>Usuário</b></label>
+            <input type="text" placeholder="Digite seu usuáro aqui!" name="user" required>
+            <label for="psw"><b>Senha</b></label>
+            <input type="password" placeholder="Digite sua senha aqui!" name="psw" required>
+            <div class="botoes">
+                <input type="reset" class="btn" class="limpar" value="Limpar">
+                <button type="submit" class="btn">Cadastrar</button>
+            </div>
+        </form>
+    </main>
+        <footer>&copy;
+            <p>Matheus Palhares e Paulo Eduardo Arantes - IFSULDEMINAS - 2022</p>
+        </footer>
+</body>
+</html>
